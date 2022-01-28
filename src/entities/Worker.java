@@ -77,7 +77,7 @@ public class Worker {
 		double sum = baseSalary;
 		Calendar cal = Calendar.getInstance();
 		int c_year = cal.get(Calendar.YEAR);
-	    int c_month = cal.get(Calendar.MONTH);
+	    int c_month = 1 + cal.get(Calendar.MONTH);
 	    
 		for (HourContract c : contracts) {
 			
